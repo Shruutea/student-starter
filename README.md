@@ -82,11 +82,3 @@ At first every test fails with `UnsupportedOperationException: TODO`. Replace ea
 - **Grading is automatic.** TAs run a larger set of tests against your `Book` and `Catalogue`.
 - **Code that does not compile scores zero.** Run `mvn test` before you submit.
 
-## Submission
-
-- **Deadline:** 24 October 2026
-- **Where:** upload on the LMS
-- **What:** zip the **whole project folder** and name it with your roll number, for example `MT2026001.zip`.
-  - `pom.xml` must be at the top level of the zip, next to `src/`.
-  - Leave out the `target/` folder.
-- Before you zip, run `mvn test` and check that the project compiles.
